@@ -15,7 +15,7 @@ $message .= "Su teléfono es: " . $phone . " \r\n";
 $message .= "Mensaje: " . $_POST['message'] . " \r\n";
 $message .= "Enviado el: " . date('d/m/Y', time());
 
-$para = 'juanfrafio125@gmail.com';
+$para = 'Florenciafranzotti@gmail.com';
 $asunto = 'Asunto del mensaje';
 
 mail($para, $asunto, $message, $header);
@@ -32,10 +32,10 @@ $header .= "Mime-Version: 1.0 \r\n";
 $header .= "Content-Type: text/plain";
 
 
-$message .= "Mensaje: " . $_POST['message'] . " \r\n";
+$message .= "La respuesta a la imagen es: " . $_POST['message'] . " \r\n";
 $message .= "Enviado el: " . date('d/m/Y', time());
 
-$para = 'juanfrafio125@gmail.com';
+$para = 'Florenciafranzotti@gmail.com';
 $asunto = 'Asunto del mensaje';
 
 mail($para, $asunto, $message, $header);

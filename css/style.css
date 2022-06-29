@@ -63,8 +63,20 @@ a:hover {
   margin: 0 auto;
 }
 
+#body #imagenPensar {
+  margin-bottom: 9%;
+}
+
+#body #imagenDelMes {
+  border-radius: 0;
+}
+
 #body .header {
   z-index: 2;
+}
+
+#body .header .h3-F-HEADER {
+  font-family: 'Grape Nuts', cursive;
 }
 
 #body .header .switch {
@@ -227,6 +239,24 @@ a:hover {
   background-color: #FEF8F9;
 }
 
+#contSection {
+  padding-bottom: 8em;
+  padding-top: 3em;
+}
+
+.h1Contacto {
+  padding-bottom: 2em;
+}
+
+#h1Talleres {
+  padding-top: 2em;
+}
+
+#section1 {
+  border-top: 2px solid rgba(247, 215, 226, 0.637);
+  padding-top: 10% !important;
+}
+
 #section3A {
   background-color: #d3d5dd;
 }
@@ -253,8 +283,13 @@ a:hover {
   }
 }
 
-body img {
-  border-radius: 1.8em;
+body .imagenCuadrada {
+  border-top-left-radius: 3.2em;
+  border-top-right-radius: 3.2em;
+}
+
+body .imagenRedondeada {
+  border-radius: 2.6em;
 }
 
 body .hero .hero__content {
@@ -278,7 +313,7 @@ body #h1Talleres {
 
 body #section2 {
   background-color: #d3d5dd;
-  border-top: 2px solid wrgb(216, 213, 213);
+  border-top: 2px solid #d8d5d5;
   padding-top: 5em !important;
   padding-bottom: 3em !important;
 }
@@ -322,14 +357,19 @@ body #section4 #h1Trabajando {
   margin-bottom: 1.5em;
 }
 
+body #section4Talleres #contSection {
+  margin-top: -2%;
+}
+
 body.dark {
   background-color: #424349 !important;
   background-color: rgba(82, 80, 80, 0.842);
   color: white;
 }
 
-body.dark img {
-  border-radius: 2.3em;
+body.dark .imagenCuadrada {
+  border-top-left-radius: 3.3em;
+  border-top-right-radius: 3.3em;
 }
 
 body.dark #navbar {
@@ -355,6 +395,10 @@ body.dark #spanRosita2 {
 
 body.dark #spanRosita3 {
   color: #f56bee;
+}
+
+body.dark #section1 {
+  border-top: 2px solid rgba(216, 213, 213, 0.411);
 }
 
 body.dark #section2 {
@@ -466,6 +510,10 @@ body.dark #footer .bi {
 
 body a {
   text-decoration: none;
+}
+
+body .textoNavBar {
+  margin-left: 2.7%;
 }
 
 body #section1Contacto {
@@ -600,6 +648,37 @@ body #section1Contacto #form #contSection {
 body #section1Contacto .form {
   width: 100%;
   margin: auto;
+}
+
+@media screen and (min-width: 576px) and (max-width: 760px) {
+  .imagenRedondeada {
+    border-radius: 2em !important;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #imagenDelMes {
+    width: 90% !important;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  #imagenDelMes {
+    width: 85% !important;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  #imagenDelMes {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #imagenRedondeadaChica {
+    border-radius: .7em !important;
+    height: 120%;
+  }
 }
 
 @media screen and (max-width: 500px) {

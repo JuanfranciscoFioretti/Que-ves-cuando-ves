@@ -75,12 +75,22 @@ $sombraLight: 10px 10px 20px rgba(0, 0, 0, .16);
 
 #body {
 
+    #imagenPensar {
+        margin-bottom: 9%;
+    }
+    #imagenDelMes {
+        // border-bottom-left-radius: 4em !important;
+        border-radius: 0;
+    }
     // 
     // MAIN HEADER
     //
     .header {
         z-index: 2;
 
+        .h3-F-HEADER {
+            font-family: 'Grape Nuts', cursive;
+        }
         .switch {
             background: #343D5B;
             border-radius: 1000px;
@@ -251,9 +261,22 @@ $sombraLight: 10px 10px 20px rgba(0, 0, 0, .16);
     background-color: #FEF8F9;
 }
 
-// #section1 {
-//     background-color: rgb(250, 240, 240);
-// }
+#contSection {
+    padding-bottom: 8em;
+    padding-top: 3em;
+}
+
+.h1Contacto {
+    padding-bottom: 2em;
+}
+
+#h1Talleres {
+    padding-top: 2em;
+}
+#section1 {
+    border-top: 2px solid rgba(247, 215, 226, 0.637);
+    padding-top: 10% !important;
+}
 
 #section3A {
     background-color: #d3d5dd;
@@ -285,8 +308,12 @@ $sombraLight: 10px 10px 20px rgba(0, 0, 0, .16);
 }
 
 body {
-    img {
-        border-radius: 1.8em;
+    .imagenCuadrada {
+        border-top-left-radius: 3.2em;
+        border-top-right-radius: 3.2em;
+    }
+    .imagenRedondeada {
+        border-radius: 2.6em;
     }
     .hero {
         .hero__content {
@@ -307,7 +334,7 @@ body {
     }
     #section2 {
         background-color: #d3d5dd;
-        border-top: 2px solid wrgb(216, 213, 213);
+        border-top: 2px solid rgb(216, 213, 213);
         padding-top: 5em !important;
         padding-bottom: 3em !important;
     }
@@ -345,6 +372,11 @@ body {
         }
         
     }
+    #section4Talleres {
+        #contSection {
+            margin-top: -2%;
+        }
+    }
 }
 
 
@@ -353,8 +385,9 @@ body {
 body {
     &.dark {
         background-color: #424349 !important;
-        img {
-            border-radius: 2.3em;
+        .imagenCuadrada {
+            border-top-left-radius: 3.3em;
+            border-top-right-radius: 3.3em;
         }
         #navbar {
             background-color: #383b47 !important;
@@ -380,6 +413,9 @@ body {
         }
         #spanRosita3 {
             color: #f56bee;
+        }
+        #section1 {
+            border-top: 2px solid rgba(216, 213, 213, 0.411);
         }
         #section2 {
             background-color: #383b47;
@@ -474,6 +510,9 @@ body {
 body {
     a {
         text-decoration: none;
+    }
+    .textoNavBar {
+        margin-left: 2.7%;
     }
     #section1Contacto {
         margin-top: -0.1% !important;
@@ -603,6 +642,58 @@ body {
             margin: auto;
         }
     }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 760px) {
+    .imagenRedondeada {
+        border-radius: 2em !important;
+    }
+    // #switch {
+    //     width: -webkit-(70% !important);
+    // }
+    // #spanSol {
+    //     margin-right: -webkit-(3em) !important;
+    // }
+    // #spanLuna {
+    //     margin-left: -webkit-(3em) !important;
+    // }
+}
+
+@media screen and (min-width: 1400px) {
+    #imagenDelMes {
+        width: 90% !important;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    #imagenDelMes {
+        width: 85% !important;
+    }
+}
+@media screen and (min-width: 1700px) {
+    #imagenDelMes {
+        width: 80% !important;
+    }
+}
+
+@media screen  and (max-width: 575px){
+    #imagenRedondeadaChica {
+        border-radius: .7em !important;
+        height: 120%;
+    }
+    // #switch {
+    //     width: -webkit-(70% !important);
+    // }
+    // #spanSol {
+    //     margin-right: -webkit-(1em) !important;
+    // }
+    // #spanLuna {
+    //     margin-left: -webkit-(1em) !important;
+    // }
+    // .textoNavBar {
+    //     margin-left: 3% !important;
+    // }
 }
 
 @media screen  and (max-width: 500px){
