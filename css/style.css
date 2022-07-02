@@ -289,7 +289,7 @@ body .imagenCuadrada {
 }
 
 body .imagenRedondeada {
-  border-radius: 2.6em;
+  border-radius: 2em;
 }
 
 body .hero .hero__content {
@@ -359,6 +359,10 @@ body #section4 #h1Trabajando {
 
 body #section4Talleres #contSection {
   margin-top: -2%;
+}
+
+body .TituloHorizontal {
+  margin-bottom: 3%;
 }
 
 body.dark {
@@ -496,8 +500,16 @@ body.dark .sectionPensar {
   margin-bottom: -3% !important;
 }
 
+body.dark .TituloHorizontal {
+  color: whitesmoke;
+}
+
 body.dark #footer {
   background-color: #2b2b30;
+}
+
+body.dark #footer .span {
+  color: whitesmoke !important;
 }
 
 body.dark #footer #divA {

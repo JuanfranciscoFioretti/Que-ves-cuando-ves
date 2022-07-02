@@ -313,7 +313,7 @@ body {
         border-top-right-radius: 3.2em;
     }
     .imagenRedondeada {
-        border-radius: 2.6em;
+        border-radius: 2em;
     }
     .hero {
         .hero__content {
@@ -376,6 +376,9 @@ body {
         #contSection {
             margin-top: -2%;
         }
+    }
+    .TituloHorizontal {
+        margin-bottom: 3%;
     }
 }
 
@@ -492,9 +495,16 @@ body {
         .sectionPensar {
             margin-bottom: -3% !important;
         }
+        .TituloHorizontal {
+            color: whitesmoke;
+        }
         
         #footer {
             background-color: #2b2b30;
+            .span {
+                color: whitesmoke !important;
+                // background-color: white;
+            }
             #divA {
                 color: whitesmoke;
             }
