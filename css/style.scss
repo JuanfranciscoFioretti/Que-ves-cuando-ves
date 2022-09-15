@@ -421,7 +421,7 @@ body {
             border-top: 2px solid rgba(216, 213, 213, 0.411);
         }
         #section2 {
-            background-color: #383b47;
+            background-color: #604864; //
             border-top: 2px solid gray;
         }
         #section2-B {
@@ -691,6 +691,11 @@ body {
     #imagenRedondeadaChica {
         border-radius: .7em !important;
         height: 120%;
+    }
+
+    .texto-chico {
+        width: 90% !important;
+        // height: 80% !important;
     }
     // #switch {
     //     width: -webkit-(70% !important);
